@@ -83,7 +83,7 @@ The trained agent achieves:
 - **Success rate**: 100%
 - **Training episodes**: 600 (GPU) / 50 (CPU)
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - **Input**: 4 observations (cart position, velocity, pole angle, angular velocity)
 - **Hidden layers**: 2 x 128 neurons with ReLU activation
@@ -100,7 +100,7 @@ TAU = 0.005           # Soft update rate
 LEARNING_RATE = 3e-4  # AdamW optimizer
 ```
 
-## 📦 Pre-trained Models
+## Pre-trained Models
 
 Download pre-trained checkpoints from the `checkpoints/` directory:
 - `latest.pth` - Most recent training checkpoint
@@ -127,7 +127,7 @@ self.layer1 = nn.Linear(n_observations, 256)  # Increase size
 NUM_EPISODES = 1000  # Train longer
 ```
 
-## 📝Code Usage
+## Code Usage
 
 ### Load a trained model
 ```python
