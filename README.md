@@ -1,7 +1,7 @@
 
 # DQN CartPole
 
-Deep Q-Network (DQN) implementation for solving OpenAI Gym's CartPole-v1 environment.
+Deep Q-Network (DQN) implementation for solving Gymnasium's CartPole-v1 environment.
 
  Project Overview
 
